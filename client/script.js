@@ -82,7 +82,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch('https://codegpt-e2gm.onrender.com', {
+  const response = await fetch('http://localhost:3000/', {
     method: 'POST', 
     headers: {
       'Content-type': 'application/json'
